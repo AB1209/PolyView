@@ -12,6 +12,14 @@ import android.view.View;
 
 import com.ab1209.polyview.R;
 
+
+/**
+ * Copyright (C) 2018 Arun Badole.
+ *
+ * Custom view that can be created in many polygon shapes.
+ *
+ * @author arunbadole
+ */
 public class PolyView extends View {
     private final static String TAG = "PolyView";
     private static final int MIN_SIDES = 3;
