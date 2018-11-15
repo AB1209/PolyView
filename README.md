@@ -1,2 +1,2 @@
 # PolyView
-A custom view with shapes of polygons.
+A custom view for creating polygons.
