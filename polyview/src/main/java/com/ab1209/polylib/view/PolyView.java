@@ -120,6 +120,7 @@ public class PolyView extends View {
 
     public void setColor(int color) {
         this.color = color;
+        paint.setColor(color);
         invalidate();
     }
 }
