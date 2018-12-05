@@ -3,7 +3,6 @@ package com.ab1209.polyview.activities;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.ab1209.polylib.view.PolyView;
@@ -40,9 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private Runnable runnable = new Runnable() {
         @Override
         public void run() {
-            noOfSides++;
-            if (noOfSides >= 8)
-                noOfSides = 3;
+            noOfSides = (noOfSides >= 8) ? 3 : ++noOfSides;
             polyView.changeShape(noOfSides, 100, getRandomColor());
             handler.postDelayed(this, 2000);
         }
