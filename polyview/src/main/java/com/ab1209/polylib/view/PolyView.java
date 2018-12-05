@@ -1,4 +1,4 @@
-package com.ab1209.polyview.views;
+package com.ab1209.polylib.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
-import com.ab1209.polyview.R;
+import com.ab1209.polylib.R;
 
 
 /**
@@ -32,6 +32,7 @@ public class PolyView extends View {
 
     public PolyView(Context context) {
         super(context);
+        init(context,null);
     }
 
     public PolyView(Context context, @Nullable AttributeSet attrs) {

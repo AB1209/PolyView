@@ -4,8 +4,8 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.ab1209.polylib.view.PolyView;
 import com.ab1209.polyview.R;
-import com.ab1209.polyview.views.PolyView;
 
 import java.util.Random;
 

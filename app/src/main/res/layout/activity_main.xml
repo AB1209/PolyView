@@ -8,7 +8,7 @@
     android:gravity="center"
     tools:context=".activities.MainActivity">
 
-    <com.ab1209.polyview.views.PolyView
+    <com.ab1209.polylib.view.PolyView
         android:id="@+id/activity_main_poly_view"
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -20,7 +20,7 @@
         app:noOfSides="3"
         app:radius="40dp" />
 
-    <com.ab1209.polyview.views.PolyView
+    <com.ab1209.polylib.view.PolyView
         android:layout_width="120dp"
         android:layout_height="120dp"
         app:color="@color/teal"
@@ -31,7 +31,7 @@
         app:noOfSides="4"
         app:radius="40dp" />
 
-    <com.ab1209.polyview.views.PolyView
+    <com.ab1209.polylib.view.PolyView
         android:layout_width="120dp"
         android:layout_height="120dp"
         app:color="@color/colorPrimary"
@@ -42,7 +42,7 @@
         app:noOfSides="5"
         app:radius="40dp" />
 
-    <com.ab1209.polyview.views.PolyView
+    <com.ab1209.polylib.view.PolyView
         android:layout_width="120dp"
         android:layout_height="120dp"
         app:color="@color/green"
@@ -53,7 +53,7 @@
         app:noOfSides="6"
         app:radius="40dp" />
 
-    <com.ab1209.polyview.views.PolyView
+    <com.ab1209.polylib.view.PolyView
         android:layout_width="120dp"
         android:layout_height="120dp"
         app:color="@color/yellow"
@@ -64,7 +64,7 @@
         app:noOfSides="7"
         app:radius="40dp" />
 
-    <com.ab1209.polyview.views.PolyView
+    <com.ab1209.polylib.view.PolyView
         android:layout_width="120dp"
         android:layout_height="120dp"
         app:color="@color/colorAccent"
