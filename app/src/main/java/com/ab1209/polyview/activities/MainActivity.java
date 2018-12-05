@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         random = new Random();
         handler = new Handler();
         polyView = findViewById(R.id.activity_main_poly_view);
-//        handler.postDelayed(runnable, 500);
+        handler.postDelayed(runnable, 500);
     }
 
     private Runnable runnable = new Runnable() {
